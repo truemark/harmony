@@ -12,23 +12,29 @@ and not this repository.
 
 ## Stacks
 
-Organization Level
+The following stacks make up Harmony.
+
+### Harmony Advanced
+This stack deploys the following:
  - AccountFactory
  - Standard AWS Permission Sets for AWS SSO
  - Standard AWS Organization OUs
  - Standard set of Security Control Policies
 
-Account Level
+## Harmony Account Automation
+This stack deploys the following:
  - Roles for automation
  - Optional Roles for TrueMark access
 
-Account + Region Level
+## Harmony Regional Automation
+This stack deploys the following:
  - Turning off AWS Config Rules that are not needed
 
 
 ## Customer Specific Configurations
 
 The following functionality is expected to be implemented in separate Terraform for CDK stacks on a per customer basis:
+
  - AWS SSO Configuration (SAML, etc)
  - Customer specific AWS SSO Permission Sets
 
