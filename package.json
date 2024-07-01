@@ -1,0 +1,17 @@
+{
+  "name": "harmony",
+  "version": "0.1.0",
+  "scripts": {
+    "install-cdk": "cd cdk && pnpm i --frozen-lockfile",
+    "install-all": "concurrently \"pnpm:install-cdk\" -c cyan,green,blue,yellow,magenta",
+    "postinstall": "pnpm run install-all",
+    "build-cdk": "cd cdk && pnpm run build",
+    "build": "concurrently \"pnpm:build-cdk\" -c cyan,green,blue,yellow,magenta",
+    "fmt-cdk": "cd cdk && pnpm run fmt",
+    "fmt": "concurrently \"pnpm:fmt-cdk\" -c cyan,green,blue,yellow,magenta"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "marked": "^13.0.0"
+  }
+}
