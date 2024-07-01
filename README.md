@@ -21,12 +21,15 @@ This stack deploys the following:
  - Standard AWS Organization OUs
  - Standard set of Security Control Policies
 
-## Harmony Account Automation
+## Harmony Account
+
 This stack deploys the following:
  - Roles for automation
  - Optional Roles for TrueMark access
 
-## Harmony Regional Automation
+Note that this stack should go into the same region as Harmony Advanced is deployed into. 
+
+## Harmony Regional
 This stack deploys the following:
  - Turning off AWS Config Rules that are not needed
 
