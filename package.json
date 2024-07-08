@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "marked": "^13.0.0"
+    "marked": "^13.0.2"
   }
 }

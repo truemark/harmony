@@ -12,8 +12,8 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2
       marked:
-        specifier: ^13.0.0
-        version: 13.0.1
+        specifier: ^13.0.2
+        version: 13.0.2
 
 packages:
 
@@ -75,8 +75,8 @@ packages:
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
-  marked@13.0.1:
-    resolution: {integrity: sha512-7kBohS6GrZKvCsNXZyVVXSW7/hGBHe49ng99YPkDCckSUrrG7MSFLCexsRxptzOmyW2eT5dySh4Md1V6my52fA==}
+  marked@13.0.2:
+    resolution: {integrity: sha512-J6CPjP8pS5sgrRqxVRvkCIkZ6MFdRIjDkwUwgJ9nL2fbmM6qGQeB2C16hi8Cc9BOzj6xXzy0jyi0iPIfnMHYzA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -192,7 +192,7 @@ snapshots:
 
   lodash@4.17.21: {}
 
-  marked@13.0.1: {}
+  marked@13.0.2: {}
 
   regenerator-runtime@0.14.1: {}
 
